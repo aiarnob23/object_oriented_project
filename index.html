@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/4a455540c8.js" crossorigin="anonymous"></script>
+    <title>Doclink</title>
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
 </head>
+
+
+<!-- -----------------bodyyyyyyyy-------------------- --->
+
 <body>
-    
+    <header>
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center text-[#216479] text-xl justify-center">
+                        <span class=""><i class="fa-solid fa-user-doctor"></i></span>
+                    <a class="btn btn-ghost normal-case text-xl">DocLink</a>
+                    </div>
+                   
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu text-xl text-slate-600 font-semibold menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn text-white text-xl bg-[#518b9c]">Login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mx-auto relative">
+            <img class="w-full h-[800px]" src="images/banner.png" alt="">
+            <h4 class="text-4xl font-semibold text-white absolute -bottom-5 left-20 px-6 py-3  rounded-lg bg-[#04364A]">Get a  <span class="text-6xl font-bold text-[#51f4fd]">20%</span> Discount this Month</h4>
+        </div>
+    </main>
+
+    <footer></footer>
 </body>
+
 </html>
